@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.phone {
+    @apply flex justify-center items-center
+}
+.contact {
+    @apply m-5 bg-green-500 text-5xl text-black 
+}

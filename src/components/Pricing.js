@@ -1,10 +1,11 @@
 import React from 'react'
-import PriceGuide from '../images/spgPriceGuide.jpg'
+import Price from '\public\Images\spgPriceGuide.jpg'
 
 const Pricing = () => {
     return (
         <div>
-            <img src="{PriceGuide}" alt="Price Guide" className="h-screen shadow-md" />
+            <h2 className="h-50">Price List</h2>
+            <img src={Price} alt="Price Guide" className="h-screen" />
         </div>
     )
 }
