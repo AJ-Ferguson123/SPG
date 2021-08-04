@@ -9,3 +9,6 @@
 .contact {
     @apply m-5 bg-green-500 text-5xl text-black 
 }
+.product {
+    @apply m-2 rounded-sm
+}

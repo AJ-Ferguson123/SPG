@@ -4,10 +4,11 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Index';
-import About from './pages/About';
+import Product from './pages/Product';
 import Contact from './pages/Contact';
 import Pricing from './pages/Pricing';
 import Dropdown from './components/Dropdown';
+import Install from './pages/Install';
 
 
 function App() {
@@ -38,9 +39,10 @@ useEffect(() => {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" exact component={About} />
-        <Route path="/contact" exact component={Contact} />
+        <Route path="/products" exact component={Product} />
         <Route path="/pricing" exact component={Pricing} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/install" exact component={Install} />
       </Switch>
       <Footer />
     </div>

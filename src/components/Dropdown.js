@@ -7,9 +7,9 @@ const Dropdown = ({ isOpen, toggle }) => {
         onClick={ toggle }
         >
             <Link className="p-4" to="/pricing">Pricing</Link>
-                <Link className="p-4" to="/about">About</Link>
-                <Link className="p-4" to="/menu">Projects</Link>
+                <Link className="p-4" to="/products">Products</Link>
                 <Link className="p-4" to="/contact">Contact</Link>
+                <Link className="p-4" to="/about">About</Link>
         </div>
     )
 }
